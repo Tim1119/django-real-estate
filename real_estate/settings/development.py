@@ -7,6 +7,6 @@ DATABASES={
         "USER":env("POSTGRES_USER"),
         "PASSWORD":env("POSTGRES_PASSWORD"),
         "HOST":env("PG_HOST"),
-        "PORT":env("PG PORT"),
+        "PORT":env("PG_PORT"),
     }
 }
