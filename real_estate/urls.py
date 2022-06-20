@@ -8,3 +8,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+admin.site.header = "Real Estate Admin"
+admin.site.site_title = "Real Estate Admin Portal"
+admin.site.index_title = "Welcome to the Real Estate Portal"
